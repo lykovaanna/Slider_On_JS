@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Yeseva+One&display=swap" rel="stylesheet">
+    <title>Slider on JS</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main_conteiner">
+            <div class="main_conteiner_content">
+                <div class="block_content">
+                    <div class="block_content-text">
+                        <div class="block_content-header">
+                            <h1 class="header_text">completed <br>
+                                projects</h1>  
+                        </div>
+                        <p class="block_content-descr">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
+                            market we have made happy more than 1000 families</p>
+                    </div>
+                    <div class="block_content-box">
+                        <h2 class="block_content-h2">City:<span id="city" class="block_content-description">Rostov-on-Don
+                            <br>
+                            LCD admiral
+                        </span></h2>
+                        <h2 class="block_content-h2">apartment area:<span id="apartment"
+                            class="block_content-description">
+                            81 m2</span></h2>
+                        <h2 class="block_content-h2">Repair Time:<span id="repairTime" class="block_content-description">3.5
+                            months</span></h2>
+                        <h2 class="block_content-h2">Repair Cost:<span id="repairCost"
+                            class="block_content-description">Upon
+                            request</span></h2>
+                    </div>
+                    <div class="slider_switch">
+                        <div class="slider_switch prev">&larr;</div>
+                        <div class="slider_switch dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="slider_switch next">&rarr;</div>                
+                    </div>
+                </div>                
+            </div>
+
+            <div class="img_conteiner">
+                <div class="nav_conteiner">
+                    <ul class="nav_list">
+                        <li><a id="firstLink" href="#" class="nav_item">Rostov-on-Don, Admiral</a></li>
+                        <li><a id="scndLink" href="#" class="nav_item">Sochi Thieves</a></li>
+                        <li><a id="thirdLink" href="#" class="nav_item">Rostov-on-Don Patriotic</a></li>
+                    </ul>
+                </div>
+                <div class="img_slider">
+                    <div class="img_slider-image" style="background-image: url('img/image1.png');" alt="Room"></div>
+                    <div class="img_slider-image" style="background-image: url('img/image2.png');" alt="Room"></div>
+                    <div class="img_slider-image" style="background-image: url('img/image3.png');" alt="Room"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
